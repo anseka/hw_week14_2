@@ -1,0 +1,74 @@
+body {
+    margin-bottom: 20%;
+    background-image: url("https://kartinki.pics/uploads/posts/2022-03/thumbs/1648115428_2-kartinkin-net-p-kartinki-dlya-fona-video-2.jpg");
+    background-size: cover;
+}
+
+p {
+    font-weight: bolder;
+    color: blue;
+    /* float: left; */
+    /* word-wrap: break-word; */
+    text-align: left;
+    font-size: 1.2rem; 
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem; 
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: start;
+}
+
+h4 {
+    font-size: 3rem;
+    background: linear-gradient(90deg, #e933ff, #ffb400, #ff3333, #334dff, #e933ff);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textflow 5s linear infinite;
+    -webkit-text-stroke: 1px darkblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: black;
+    font-size: 1.2rem; 
+}
+
+#list {
+    width: 60%;
+margin: auto;
+
+}
+
+li {
+    margin: auto;
+}
+
+li::marker {
+    font-size: 2rem;
+}
+
+hr {
+    border-top: 3px dotted darkblue;
+}
